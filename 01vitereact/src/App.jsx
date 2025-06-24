@@ -1,9 +1,18 @@
-
+import Chai from "./chai"
 
 function App() {
 
+  const username= "NEERAJ KUMAR"
+  
+  // {} is a evaluated expression
   return (
-    <h1>hello chai and react with vite | Neeraj Kumar</h1>
+    <>
+  <Chai/>
+  {/*  jahan v {} hoga uske andar ko hum as a variable treat karenge */ }
+  <h1>chai aur react {username}</h1>  
+  <P> test para</P>
+
+  </>
   )
 }
 
