@@ -41,7 +41,8 @@ const router = createBrowserRouter(
        <Route path ='about' element={<About/>} />
         <Route path ='contact' element={<Contact Us/>} />
 
-        <Route path ='user/:userid' element={<User/>} />
+{/* dynamically take the value by userid(just a name ---> useParam in user.jsx  ) */}
+        <Route path ='user/:userid' element={<User/>} /> 
            <Route 
            loader={githubInfoLoader}
            path ='github' 
