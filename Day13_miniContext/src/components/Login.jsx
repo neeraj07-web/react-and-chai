@@ -1,5 +1,4 @@
-// yeh toh baat hui data bhejne ki
-    // data lene k liye same aise hi , setdata ki jagah data de dunga and humay mil jayega 
+ 
 
 import React, {useState, useContext} from 'react'
 import UserContext from '../context/UserContext'
@@ -8,6 +7,8 @@ function Login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
+    // yeh toh baat hui data bhejne ki
+    // data lene k liye same aise hi , setdata ki jagah data de dunga and humay mil jayega
     const {setUser} = useContext(UserContext)
 
     const handleSubmit = (e) => {
